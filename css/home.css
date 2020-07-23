@@ -1,0 +1,677 @@
+* {
+  margin: 0;
+  background: #60BAED;
+}
+
+#header {
+  position: absolute;
+  width: 1348px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+  background: #4294C2;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#header img {
+  position: absolute;
+  width: 237px;
+  height: 22px;
+  left: 34px;
+  top: 19px;
+  background: #4294C2;
+}
+
+#masuk a {
+  position: absolute;
+  width: 80px;
+  height: 33px;
+  left: 1072px;
+  top: 17px;
+  background: #7187D5;
+  border-radius: 20px;
+  border-style: ridge;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+#header #daftar a {
+  position: absolute;
+  width: 80px;
+  height: 33px;
+  left: 1192px;
+  top: 17px;
+  background: #71D587;
+  border-radius: 20px;
+  border-style: ridge;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+#banner {
+  position: absolute;
+  width: 1348px;
+  height: 471px;
+  top: 74px;
+  background: #5A9CFF;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#banner img {
+  position: absolute;
+  width: 587px;
+  height: 43px;
+  left: 72px;
+  top: 141px;
+  background: #5A9CFF;
+}
+
+#devbrains img {
+  position: absolute;
+  width: 837px;
+  height: 74px;
+  left: 72px;
+  top: 184px;
+}
+
+#design1 img {
+  position: absolute;
+  width: 323px;
+  height: 192px;
+  left: 955px;
+  top: 129px;
+}
+
+#daftar1 a {
+  position: absolute;
+  width: 80px;
+  height: 33px;
+  left: 72px;
+  top: 279px;
+  background: #71D587;
+  border-radius: 20px;
+  border-style: ridge;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+#masuk a:hover, #daftar a:hover, #daftar1 a:hover {
+  background: #5A9CFF;
+}
+
+#menu {
+  position: absolute;
+  width: 1348px;
+  height: 121px;
+  left: 0px;
+  top: 545px;
+  background: #6FA7DB;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 1;
+}
+
+#m_android img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 352px;
+  background: #6FA7DB;
+  top: 11px;
+}
+
+#m_ios img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 488px;
+  background: #6FA7DB;
+  top: 11px;
+}
+
+#m_web img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 624px;
+  background: #6FA7DB;
+  top: 11px;
+}
+
+#m_typo img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 760px;
+  background: #6FA7DB;
+  top: 11px;
+}
+
+#m_about img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 891px;
+  background: #6FA7DB;
+  top: 11px;
+}
+
+#cm {
+  position: fixed;
+  height: 325px;
+  top: 240px;
+  left: 15px;
+}
+
+#cm_android img {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  background: #60BAED;
+  top: 900px;
+}
+
+#cm_ios img {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  background: #60BAED;
+  top: 960px;
+}
+
+#cm_web img {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  background: #60BAED;
+  top: 1020px;
+}
+
+#cm_typo img {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  background: #60BAED;
+  top: 1080px;
+}
+
+#cm_about img {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  background: #60BAED;
+  top:1140px;
+}
+
+#c_android {
+  position: absolute;
+  width: 1176px;
+  height: 667px;
+  left: 85px;
+  top: 680px;
+  background: white;
+  border-radius: 20px;
+}
+
+#c_android img {
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  background: white;
+}
+
+#andro1 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 32px;
+  top: 112px;
+  border-radius: 20px;
+  z-index: 1
+}
+
+#andro2 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 32 + 196 + 32 = 260 */
+  left: 260px;
+  top: 112px;
+  border-radius: 20px;
+}
+
+#andro3 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 263 + 196 + 32 = 491*/
+  left: 491px;
+  top: 112px;
+  border-radius: 20px;
+}
+
+#andro4 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 491 + 196 + 32 = 719 */
+  left: 719px;
+  top: 112px;
+  border-radius: 20px;
+}
+
+#andro5 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 947px;
+  top: 112px;
+  border-radius: 20px;
+}
+
+#andro6 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 32px;
+  top: 394px;
+  border-radius: 20px;
+}
+
+#andro7 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 263px;
+  top: 394px;
+  border-radius: 20px;
+}
+
+#andro8 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 491px;
+  top: 394px;
+  border-radius: 20px;
+}
+
+#andro9 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 719px;
+  top: 394px;
+  border-radius: 20px;
+}
+
+#andro10 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 947px;
+  top: 394px;
+  border-radius: 20px;
+}
+
+#ios #c_ios {
+  position: absolute;
+  width: 1176px;
+  height: 667px;
+  left: 85px;
+  /* top 700 + 667 */
+  top: 1357px;
+  background: white;
+  border-radius: 20px;
+}
+
+#c_ios img {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  top: 20px;
+  left: 530px;
+  background: white;
+}
+
+#ios1 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 32px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#ios2 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 32 + 196 + 32 = 260 */
+  left: 260px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#ios3 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 263 + 196 + 32 = 491*/
+  left: 491px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#ios4 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  /* left = 491 + 196 + 32 = 719 */
+  left: 719px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#ios5 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 947px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#ios6 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 32px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#ios7 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 263px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#ios8 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 491px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#ios9 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 719px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#ios10 img {
+  position: absolute;
+  width: 196px;
+  height: 250px;
+  left: 947px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#c_web {
+  position: absolute;
+  width: 1176px;
+  height: 667px;
+  left: 85px;
+  top: 2034px;
+  background: white;
+  border-radius: 20px;
+}
+
+#c_web img {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  top: 20px;
+  left: 515px;
+  background: white;
+}
+
+#web1 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 32px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#web2 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 410px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#web3 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 790px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#web4 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 32px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#web5 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 410px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#c_web #web6 img {
+  position: absolute;
+  width: 346px;
+  height: 250px;
+  left: 790px;
+  top: 382px;
+  border-radius: 20px;
+}
+
+#c_typo {
+  position: absolute;
+  width: 1176px;
+  height: 667px;
+  left: 85px;
+  top: 2711px;
+  background: white;
+  border-radius: 20px;
+}
+
+#c_typo img {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  top: 20px;
+  left: 485px;
+  background: white;
+}
+
+#typo1 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 32px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#typo2 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 320px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#typo3 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 600px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#typo4 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 880px;
+  top: 100px;
+  border-radius: 20px;
+}
+
+#typo5 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 32px;
+  top: 390px;
+  border-radius: 20px;
+}
+
+#typo6 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 320px;
+  top: 390px;
+  border-radius: 20px;
+}
+
+#typo7 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 600px;
+  top: 390px;
+  border-radius: 20px;
+}
+
+#typo8 img {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: 880px;
+  top: 390px;
+  border-radius: 20px;
+}
+
+#menu img:hover, #cm img:hover,
+#andro1 img:hover, #andro2 img:hover, #andro3 img:hover,
+#andro4 img:hover, #andro5 img:hover, #andro6 img:hover,
+#andro7 img:hover, #andro8 img:hover, #andro9 img:hover,
+#andro10 img:hover, #ios1 img:hover, #ios2 img:hover,
+#ios3 img:hover, #ios4 img:hover, #ios5 img:hover, #ios6 img:hover,
+#ios7 img:hover, #ios8 img:hover, #ios9 img:hover, #ios10 img:hover,
+#web1 img:hover, #web2 img:hover, #web3 img:hover,
+#web4 img:hover, #web5 img:hover, #web6 img:hover,
+#typo1 img:hover, #typo2 img:hover, #typo3 img:hover, #typo4 img:hover,
+#typo5 img:hover, #typo6 img:hover, #typo7 img:hover, #typo8 img:hover,
+#c_t_l img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+#c_tentang {
+  position: absolute;
+  width: 1176px;
+  height: 667px;
+  left: 85px;
+  top: 3388px;
+  background: white;
+  border-radius: 20px;
+}
+
+#c_tentang img {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  top: 20px;
+  left: 485px;
+  background: white;
+}
+
+#c_t_l img {
+  position: absolute;
+  width: 180px;
+  height: 300px;
+  left: 200px;
+  top: 250px;
+  border-radius: 20px;
+}
+
+#c_t_m img {
+  position: absolute;
+  width: 180px;
+  height: 406px;
+  left: 500px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+#c_t_r {
+  position: absolute;
+  width: auto;
+  height: 350px;
+  left: 650px;
+  top: 200px;
+  border-radius: 20px;
+  background: white;
+}
+
+#c_t_r table tr td{
+  background: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}

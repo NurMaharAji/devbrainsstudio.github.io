@@ -1,0 +1,145 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#f_login_left_top {
+  position: relative;
+  width: 546px;
+  height: 202px;
+  top: 0px;
+  background: #5AA6D1;
+  border-radius: 0px 0px 20px 0px;
+}
+
+#f_login_left_top img {
+  position: relative;
+  width: 237.36px;
+  height: 42.64px;
+  left: 100px;
+  top: 38.16px;
+}
+
+#f_login_left_bottom {
+  position: absolute;
+  width: 546px;
+  height: 465px;
+  top: 202px;
+  background: #5AA6D1;
+  border-radius: 0px 20px 0px 0px;
+}
+
+#f_login_left_bottom img {
+  position: relative;
+  width: 150px;
+  height: 250px;
+  left: 100px;
+  top: 100px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+#f_login_right {
+  float: left;
+}
+
+#f_login_right_top {
+  position: absolute;
+  width: 820px;
+  height: 202px;
+  left: 546px;
+  top: 0px;
+  background: #5AA6D1;
+  border-radius: 0px 0px 0px 20px;
+}
+
+#f_login_right_bottom_left {
+  position: absolute;
+  width: 620px;
+  height: 232px;
+  left: 546px;
+  top: 202px;
+  background: #5AA6D1;
+  border-radius: 20px 0px 20px 0px;
+}
+
+#f_login_right_bottom_left img {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 333px;
+  top: 40px;
+  z-index: 3;
+}
+
+#f_login_right_bottom_left_bottom {
+  position: absolute;
+  width: 620px;
+  height: 235px;
+  left: 546px;
+  top: 432px;
+  background: #5AA6D1;
+  border-radius: 0 20px 0 0;
+  z-index: 1;
+}
+
+#f_login_right_bottom_right {
+  position: absolute;
+  width: 200px;
+  height: 232px;
+  left: 1166px;
+  top: 202px;
+  background: #5AA6D1;
+  border-radius: 0 0 0 20px;
+  z-index: 1;
+}
+
+#f_login_right_bottom_right_bottom {
+  position: absolute;
+  width: 200px;
+  height: 235px;
+  left: 1166px;
+  top: 432px;
+  background: #5AA6D1;
+  border-radius: 20px 0 0 0;
+  z-index: 1;
+}
+
+form {
+  position: absolute;
+  margin-left: 246px;
+  font-size: 20px;
+  display: block;
+  border-style: outset;
+  float: left;
+  z-index: 2;
+}
+
+input {
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin: 20px 10px 0px 10px;
+}
+
+#login_btn:hover, #regis_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+form h5 {
+  margin: 5px 10px;
+}
+
+button:hover {
+  color: blue;
+}
+
+.regis {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
